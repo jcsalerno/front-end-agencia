@@ -10,4 +10,4 @@ Este projeto consiste em um site fictício para uma agência de marketing chamad
 - Font Awesome
 - Google Fonts
 
-![Alt text](images/projeto.png)
+![print do final do projeto](images/final.png)

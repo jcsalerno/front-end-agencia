@@ -278,7 +278,138 @@ li.slick-active button{
 
 .slick-slide:focus { outline: none; }
 
+/*Fim slick slider*/
+
+section.contato {
+    padding:40px 0;
+    text-align: center;
+}
+
+section.contato h1 {
+    font-size: 50px;
+}
+
+section.contato form {
+    width: 100%;
+}
+
+.contato input[type=text],
+.contato input[type=email]  {
+    width: 100%;
+    height: 50px;
+    margin:20px 0;
+    border-radius: 10px;
+    background: #FCFDFF;
+    border:1px solid #C3CCE8;
+    padding-left: 10px;
+}
+
+.contato textarea{
+    width: 100%;
+    height: 120px;
+    margin:20px 0;
+    border-radius: 10px;
+    background: #FCFDFF;
+    border:1px solid #C3CCE8;
+    padding: 10px;
+    resize: vertical;
+}
+
+.contato input[type=submit] {
+    width: 100%;
+    height: 50px;
+    display: block;
+    cursor: pointer;
+    border: 0;
+    background: #255AFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+
+}
+
+footer {
+    padding:10px 0;
+    background:#255AFF;
+    color: white;
+}
+
+footer .items-menu {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.text-footer {
+    width: 50%;
+    padding:8px 0;
+
+}
+
+.items-menu-mobile{
+    width:50%;
+    text-align: right;
+    display: none;
+}
+
+.items-menu-mobile i{
+    color:white;
+    position: relative;
+    top:15px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
+    .items-menu-mobile{
+        display: block;
+       
+    }
+    .items-menu{
+        display: none;
+    }
+    .menu-mobile{
+        
+        opacity: 0;
+        transition: 1s;
+        position: absolute;
+        left:0;
+        top:65px;
+        background-color: white;
+        width:100%;
+        padding:15px 0;
+        text-align: center;
+    }
+    .show{
+        opacity: 1;
+    }
+    .hide{
+        opacity: 0;
+    }
+    .menu-mobile a{
+        text-align: center;
+        display: block;
+        margin:8px 0;
+        color:rgb(40,40,40);
+        text-decoration: none;
+        font-weight: bold;
+        border-bottom:1px solid rgb(40,40,40);
+        padding:8px 0;
+    }
+     footer .items-menu{
+        width: 100%;
+        text-align: center;
+     }
+     footer .items-menu a {
+        display: block;
+        margin:10px 0 ;
+        text-align: center;
+     }
+    .text-footer {
+        width: 100%;
+        text-align: center;
+        padding:8px 0;
+    }
     .lista-beneficios,.img-beneficios{
         width:100%;
         margin-bottom: 30px;
